@@ -4,7 +4,9 @@
 }
 
 header {
-    position: sticky;
+    padding: 10px 0;    
+    text-align: center;
+    background-color: #f8f1e8;
 }
 
 header a {
@@ -19,18 +21,23 @@ header a {
 }
 
 nav {
-    position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+    position:sticky; 
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
-    color:#E7E0D6;
+    background-color: blanchedalmond; 
+    color:black;
     padding: 1rem 0;
     text-align: center;
 }
 
 nav ul {
     display: none;
+}
+
+
+header nav ul li {
+    display: inline;
 }
 
 .cover {
@@ -211,7 +218,7 @@ nav label img {
 }
 
 .left-icon {
-    width: 20%;
+    width: 40%;
 }
 
 nav label img {
@@ -236,7 +243,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--primary);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 nav ul li a:hover {
