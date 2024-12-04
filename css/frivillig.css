@@ -23,6 +23,7 @@
 
 .hero-overlay .highlight {
     color: #fcd34d; 
+    font-family: ac;
 }
 
 
@@ -77,4 +78,43 @@
 .text-content p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 540px) and (orientation: landscape){
+
+.description-content{
+    padding: 50px;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (orientation: portrait){
+
+    .description-content{
+    padding: 60px;
+    font-size: 2rem;
+}
+}
+
+
+@media only screen and (min-width: 1024px) and (orientation: landscape){
+
+.description-content{
+    padding: 70px;
+ }
+}
+
+@media only screen and (min-width: 1200px){
+
+.description-content{
+    padding: 70px;
+    font-size: 2rem;
+}
+
 }
