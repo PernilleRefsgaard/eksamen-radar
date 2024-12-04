@@ -1,10 +1,8 @@
 * {
-    font-family: 'Arial', sans-serif;  
     margin: 0;  
 }
 
-header {
-    padding: 10px 0;    
+header {    
     text-align: center;
     background-color: #f8f1e8;
 }
@@ -14,9 +12,9 @@ header a {
 }
 
 .left-icon {
-    width: 12%;
+    width: 15%;
     height: auto;
-    margin: 0.8rem auto;
+    margin: 1rem auto;
     display: flex;
 }
 
@@ -27,7 +25,6 @@ nav {
     width: 100%;
     background-color: blanchedalmond; 
     color:black;
-    padding: 1rem 0;
     text-align: center;
 }
 
@@ -44,7 +41,6 @@ header nav ul li {
     position: relative;
     width: 100%;
     overflow: hidden;
-    margin-bottom: -2%;
 }
 
 nav label img {
@@ -54,7 +50,7 @@ nav label img {
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 #menu-bar {
@@ -92,11 +88,6 @@ header #menu-bar ul li:hover > ul {
 }
 
 
-
-
-
-
-
 .hero {
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
     height: 300px;
@@ -110,11 +101,12 @@ header #menu-bar ul li:hover > ul {
     font-size: 2.5rem;
     text-align: center;
     margin: 0;
+    font-family: 'ackor-demo', 'Times New Roman', Times, serif;
 }
 
 .hero-overlay .highlight {
     color: #fcd34d; 
-    font-family: ac;
+    font-family: 'ackor-demo', 'Times New Roman', Times, serif;
 }
 
 
