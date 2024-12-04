@@ -28,7 +28,7 @@ header nav ul li {
 }
 
 nav {
-    position: absolute; 
+    position: sticky; 
     top: 0;
     left: 0;
     width: 100%;
@@ -111,34 +111,6 @@ nav ul {
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
     color: black;
@@ -184,18 +156,32 @@ footer {
 
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
+    .left-icon {
+        width: 12%;
+    }
+    
+    nav label img {
+        width: 14%;
+        margin-top: 1.2%;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
+
+    nav label img {
+        margin-top: 1%;
+    }
+
 
 }
 
 @media only screen and (min-width: 1200px){
 
     .left-icon {
-        width: 20%;
+        width: 40%;
     }
-    
+
     nav label img {
         display: none;
     }
