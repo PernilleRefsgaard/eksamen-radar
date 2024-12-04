@@ -163,10 +163,32 @@ header #menu-bar ul li:hover > ul {
     line-height: 1.6;
 }
 
+footer {
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  footer .social-links a {
+    margin: 0 50px;
+  }
 
-
-
-
+  footer h2 {
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+  
+  footer .contact {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
 
 
 @media only screen and (min-width: 540px) and (orientation: landscape){
