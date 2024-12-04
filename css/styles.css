@@ -107,7 +107,7 @@ nav ul {
   }
 
   .guitar img {
-    width: 200px;
+    width: 40%;
   }
   
 
@@ -124,7 +124,7 @@ footer {
   }
   
   footer .social-links a {
-    margin: 0 10px;
+    margin: 0 50px;
   }
 
   footer h2 {
