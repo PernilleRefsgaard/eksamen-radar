@@ -79,12 +79,14 @@ nav ul {
 }
 
 
-.video
-
-width: 600px;
-aspect-ratio: auto 600 / 400;
-height: 400px;
-
+.styled-video {
+    width: 100vw; /* Videoen fylder hele bredden af viewporten */    
+    height: auto; /* Bevarer videoens proportioner */   
+    display: block; /* S%C3%B8rg for, at der ikke er nogen un%C3%B8dvendige margins */    
+    margin: 0; /* Fjern marginer */    
+    padding: 0; /* Fjern padding */    
+    object-fit: cover;
+}
 
 .features {
     display: flex;
@@ -93,22 +95,35 @@ height: 400px;
     background: #000;
     color: #FFD700;
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 
 
 
 
   .feature .cirkel {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: #FFD700;
     color: #000;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    box-shadow: 0 0 5px #FFD700, 0 0 25px #FFD700;
+  }
+
+  .feature .cirkel :hover{
+    box-shadow: 0 0 5px #FFD700, 0 0 25px #FFD700,
+     0 0 50px #FFD700, 0 0 100px #FFD700, 
+     0 0 200px #FFD700;
+
   }
 
   .guitar {
@@ -118,7 +133,7 @@ height: 400px;
   }
 
   .guitar img {
-    width: 40%;
+    width: 60%;
   }
   
 
@@ -176,6 +191,17 @@ footer {
         margin-top: 1.2%;
     }
 
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+    background: #000;
+    color: #FFD700;
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+        
+}
+
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
@@ -183,6 +209,17 @@ footer {
     nav label img {
         margin-top: 1%;
     }
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+    background: #000;
+    color: #FFD700;
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+        
+}
 
 
 }
@@ -225,5 +262,18 @@ footer {
     nav ul li ul {
         display: none;
     }
+
+    .features {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px 0;
+        background: #000;
+        color: #FFD700;
+        background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+        
+      }
+
+
 
 }
