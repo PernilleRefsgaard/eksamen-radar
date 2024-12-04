@@ -85,12 +85,10 @@ header #menu-bar ul li:hover > ul {
 
 
 @font-face {
-    font-family: 'ackor-demo'; /* Navnet, du vil bruge i CSS */
-    src: url('../ackor-demo') format('woff2'),
-         url('fonts/MyCustomFont.woff') format('woff'),
-         url('fonts/MyCustomFont.ttf') format('truetype'); /* Backup formater */
-    font-weight: normal; /* Vægt af fonten (normal, bold, osv.) */
-    font-style: normal;  /* Skrifttype (normal, italic, osv.) */
+    font-family: 'ackor-demo'; 
+    src: url('../fonts/AckorDemo-Regular.otf') format('otf');
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 
