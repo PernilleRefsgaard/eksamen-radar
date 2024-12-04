@@ -3,9 +3,6 @@
     margin: 0;  
 }
 
-#grad {
-    background-image: linear-gradient(to right, red , yellow);
-  }
 
 header {
     position: sticky;
@@ -79,6 +76,7 @@ nav ul {
     padding: 20px 0;
     background: #000;
     color: #FFD700;
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
   }
 
   .feature .cirkel {
@@ -97,6 +95,7 @@ nav ul {
   .guitar {
     text-align: center;
     padding: 20px;
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
   }
 
   .guitar img {
@@ -132,8 +131,8 @@ nav ul {
 
 
 footer {
-    background: #000;
-    color: #FFD700;
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    color: black;
     text-align: center;
     padding: 20px 0;
   }
