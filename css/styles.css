@@ -5,12 +5,20 @@
 
 
 header {
-    position: sticky;
+    padding: 10px 0;    
+    text-align: center;
+    background-color: #f8f1e8;
+
 }
 
 header a {
     display: flex;
 }
+
+header nav ul li {
+    display: inline;
+}
+
 
 .left-icon {
     width: 12%;
