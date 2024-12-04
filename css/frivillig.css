@@ -77,10 +77,7 @@ header #menu-bar ul li:hover > ul {
 }
 
 
-
-
 .hero {
-    position: ;
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
     height: 300px;
     display: flex;

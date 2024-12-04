@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 77 82">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: url(#Ikke-navngivet_forløb_21);
+      }
+
+      .cls-4 {
+        fill: url(#Ikke-navngivet_forløb_20);
+      }
+
+      .cls-5 {
+        fill: url(#Ikke-navngivet_forløb_22);
+      }
+
+      .cls-6 {
+        fill: url(#Ikke-navngivet_forløb_12);
+      }
+
+      .cls-7 {
+        fill: url(#Ikke-navngivet_forløb_17);
+      }
+
+      .cls-8 {
+        fill: url(#Ikke-navngivet_forløb_18);
+      }
+
+      .cls-9 {
+        fill: url(#Ikke-navngivet_forløb_15);
+      }
+
+      .cls-10 {
+        fill: url(#Ikke-navngivet_forløb_16);
+      }
+
+      .cls-11 {
+        fill: url(#Ikke-navngivet_forløb_13);
+      }
+
+      .cls-12 {
+        fill: url(#Ikke-navngivet_forløb_14);
+      }
+
+      .cls-13 {
+        fill: url(#Ikke-navngivet_forløb_19);
+      }
+
+      .cls-14 {
+        fill: #1d1d1b;
+      }
+
+      .cls-15, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-family: AckorDemo-Regular, 'Ackor Demo';
+        font-size: 72px;
+      }
+    </style>
+    <radialGradient id="Ikke-navngivet_forløb_12" data-name="Ikke-navngivet forløb 12" cx="56.2" cy="711.75" fx="56.2" fy="711.75" r="38.88" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_13" data-name="Ikke-navngivet forløb 13" cx="51.1" cy="698.83" fx="51.1" fy="698.83" r="0" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_14" data-name="Ikke-navngivet forløb 14" cx="50.97" cy="696.29" fx="50.97" fy="696.29" r="0" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_15" data-name="Ikke-navngivet forløb 15" cx="50.75" cy="693.66" fx="50.75" fy="693.66" r="0" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_16" data-name="Ikke-navngivet forløb 16" cx="51.67" cy="694.27" fx="51.67" fy="694.27" r="1.74" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_17" data-name="Ikke-navngivet forløb 17" cx="51.86" cy="696.23" fx="51.86" fy="696.23" r="2.85" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_18" data-name="Ikke-navngivet forløb 18" cx="-139.17" cy="368.82" fx="-139.17" fy="368.82" r="1.94" gradientTransform="translate(249.04 -505.56) scale(1.44 1.46)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_19" data-name="Ikke-navngivet forløb 19" cx="50.1" cy="688.67" fx="50.1" fy="688.67" r="2.09" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_20" data-name="Ikke-navngivet forløb 20" cx="47.29" cy="686.5" fx="47.29" fy="686.5" r="0" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_21" data-name="Ikke-navngivet forløb 21" cx="46.4" cy="686.11" fx="46.4" fy="686.11" r="0" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+    <radialGradient id="Ikke-navngivet_forløb_22" data-name="Ikke-navngivet forløb 22" cx="46.05" cy="685.99" fx="46.05" fy="685.99" r="0" gradientTransform="translate(0 -670)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </radialGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.3, SVG Export Plug-In . SVG Version: 1.2.0 Build 164)  -->
+  <g>
+    <g id="Lag_1">
+      <g id="Lag_1-2">
+        <g id="Lag_1-2-2" data-name="Lag_1-2">
+          <g>
+            <path class="cls-6" d="M56.03,25.44c0,7.34-9,9.94-14.33,10.95,6.55,1.15,10.73,10.08,12.46,19.01l.58,3.38c.94,4.61,2.45,5.47,4.83,5.47v.36h-11.67c-.07-10.87,1.3-28.01-7.63-28.01-6.26,0-8.93,6.12-9.5,16.42v2.38c0,7.85,2.16,8.86,5.04,8.86v.36h-17.28v-.36c2.88,0,5.04-1.01,5.04-8.86v-31.97c0-7.85-2.16-8.86-5.04-8.86v-.36h17.28c10.3,0,20.23,3.17,20.23,11.23h0ZM48.75,25.44c0-8.06-2.81-10.87-12.96-10.87-2.88,0-5.04,1.01-5.04,8.86v25.06c.79-6.19,3.17-12.24,9.5-12.24,4.75-.72,8.5-3.02,8.5-10.8h0Z"/>
+            <g class="cls-15">
+              <g class="cls-15">
+                <text class="cls-2" transform="translate(17.79 64.61)"><tspan x="0" y="0">R</tspan></text>
+              </g>
+            </g>
+          </g>
+          <line class="cls-1" x1="31.12" y1="51.6" x2="47.87" y2="51.47"/>
+          <line class="cls-1" x1="30.73" y1="46.49" x2="30.75" y2="53.02"/>
+          <g>
+            <path class="cls-11" d="M51.1,28.83"/>
+            <path class="cls-14" d="M51.1,31.33c3.22,0,3.22-5,0-5s-3.22,5,0,5h0Z"/>
+          </g>
+          <g>
+            <path class="cls-12" d="M50.97,26.29"/>
+            <path class="cls-14" d="M50.97,28.79c3.22,0,3.22-5,0-5s-3.22,5,0,5h0Z"/>
+          </g>
+          <g>
+            <path class="cls-9" d="M50.75,23.66"/>
+            <path class="cls-14" d="M50.75,26.16c3.22,0,3.22-5,0-5s-3.22,5,0,5h0Z"/>
+          </g>
+          <g>
+            <path class="cls-10" d="M50.68,22.02c.66-.05,1.28.42,1.6,1s.37,1.27.38,1.94c0,.54-.04,1.12-.35,1.56"/>
+            <path class="cls-14" d="M50.68,24.52h.26l-.66-.09c.13.02.25.05.38.1l-.6-.25c.14.06.27.14.4.23l-.51-.39c.14.11.27.24.38.38l-.39-.51c.11.15.2.31.28.49l-.25-.6c.12.29.19.58.23.88l-.09-.66c.06.5.08,1.02.02,1.52l.09-.66c-.03.2-.07.38-.14.57l.25-.6c-.05.11-.11.22-.18.32-.35.51-.41,1.34-.25,1.93s.61,1.21,1.15,1.49c.58.31,1.28.46,1.93.25s1.11-.59,1.49-1.15c.13-.19.21-.4.3-.62s.18-.42.23-.65c.1-.45.15-.91.16-1.37,0-.27,0-.54-.03-.8-.04-.47-.09-.96-.22-1.42-.12-.43-.29-.87-.52-1.25-.16-.27-.36-.52-.56-.75-.07-.09-.15-.17-.23-.24-.53-.46-.96-.72-1.6-.96-.1-.04-.2-.07-.31-.09-.32-.06-.66-.12-.99-.11-.66.03-1.29.26-1.77.73-.43.43-.76,1.15-.73,1.77s.24,1.32.73,1.77,1.1.76,1.77.73h-.02Z"/>
+          </g>
+          <g>
+            <path class="cls-7" d="M52.51,22.41c.39.87.6,1.82.62,2.77,0,.47-.03.93-.06,1.4-.03.38-.07.77-.2,1.13-.12.32-.32.61-.51.9-.38.55-.79,1.13-1.4,1.4-.12.05-.3.07-.35-.05"/>
+            <path class="cls-14" d="M50.35,23.67l.05.13-.25-.6c.24.59.41,1.2.5,1.83l-.09-.66c.11.9.06,1.82-.05,2.72l.09-.66c-.04.26-.1.5-.2.74l.25-.6c-.21.45-.51.86-.81,1.26l.39-.51c-.2.25-.4.48-.65.68l.51-.39c-.13.09-.26.17-.4.24l.6-.25s-.1.04-.16.04l.66-.09h-.08c.22.03.44.06.66.09l-.07-.03,1.1.64-.05-.06c-.38-.47-1.2-.73-1.77-.73-.61,0-1.35.27-1.77.73s-.76,1.1-.73,1.77c.03.7.29,1.22.73,1.77s1.22.8,1.88.82c.54.02,1.02-.15,1.5-.38s.96-.62,1.33-1.03c.76-.85,1.56-1.94,1.82-3.07.24-1.01.32-2.19.25-3.23-.09-1.34-.42-2.48-.94-3.7-.23-.53-.96-1-1.49-1.15-.6-.16-1.4-.09-1.93.25s-1,.86-1.15,1.49l-.09.66c0,.45.12.87.34,1.26h0l.02.02h0Z"/>
+          </g>
+          <g>
+            <path class="cls-8" d="M49.4,30.62c.08.57-.1,1.15-.39,1.65s-.68.92-1.08,1.33c-.7.75-1.48,1.54-2.49,1.71,1-.22,1.74-1.04,2.62-1.56.5-.29,1.05-.49,1.54-.8.78-.49,1.41-1.24,2.27-1.58-.07.45-.31.88-.66,1.17"/>
+            <path class="cls-14" d="M47.95,31.01c.11,1.01-.53,1.83-1.17,2.53-.31.34-.63.67-.97.98-.05.05-.1.09-.16.14-.09.07-.11.09-.06.05.05-.03.03-.02-.06.05-.06.04-.11.08-.17.11-.26.17.2-.07-.08.04.18-.07.2-.08.05-.03.12-.05.25-.08.38-.11l-.15,1c.84-.21,1.64-.58,2.34-1.08.26-.18.51-.38.77-.56.12-.09.25-.17.37-.25.07-.05.15-.09.23-.14-.15.08.02,0,.08-.04.73-.36,1.42-.71,2.06-1.21.24-.19.48-.39.72-.58.26-.2-.07.04.09-.06.07-.05.14-.1.21-.14.06-.04.11-.07.17-.11-.24.13.06-.02.09-.03l-2.27.06c-.07.4-.23.75-.54,1.02-.5.43.44.51.69.48.65-.06,1.43-.25,1.94-.69.4-.35.68-.79.78-1.31.14-.77-1.99-.06-2.27.06-.67.28-1.24.72-1.8,1.17-.12.1-.24.2-.36.29-.03.02-.13.1-.04.04-.07.05-.14.1-.21.15-.06.04-.12.07-.18.11-.05.03-.04.03.02,0l-.1.05c-.15.08-.31.15-.47.23-.63.3-1.21.65-1.76,1.06-.23.17-.45.34-.69.49-.07.04-.14.08-.21.13.08-.06.13-.08.02,0-.21.14.18-.06.02,0-.18.06.38-.1.05-.02s-.7.22-.99.41c-.12.08-.33.21-.33.37,0,.43.96.26,1.17.22.91-.17,1.81-.48,2.57-1.01.53-.37.99-.81,1.43-1.27.87-.92,1.82-1.97,1.67-3.34-.02-.18-.42-.2-.51-.21-.34-.02-.73.05-1.06.14s-.69.21-.99.41c-.15.1-.36.23-.34.44h0l.02-.04h0Z"/>
+          </g>
+          <g>
+            <path class="cls-13" d="M47.69,16.95c.43.5.78,1.06,1.02,1.67.19.47.32.99.65,1.38.09-.71,0-1.45-.24-2.13.87.41,1.66.97,2.45,1.53.37.27.77.56.94.98"/>
+            <path class="cls-14" d="M46.35,17.53c.27.31.5.65.7,1.01l-.11-.19c.4.73.55,1.58,1.07,2.24.31.39,1.14.31,1.55.19.25-.07.48-.17.7-.3.19-.11.52-.39.54-.64.09-.79.02-1.59-.24-2.34l-2.6,1.11c.65.31,1.25.69,1.84,1.1.14.1.29.2.43.3.07.05.14.1.21.15.03.02.06.04.09.06-.09-.06-.1-.08-.05-.03.24.2.46.39.61.66l-.11-.19s.04.09.06.13c.26.59,1.14.53,1.65.38.34-.1.71-.24.96-.5.15-.15.38-.42.28-.66-.33-.75-1.02-1.16-1.67-1.62s-1.3-.89-2.02-1.22c-.51-.24-1.23-.15-1.73.09-.21.1-.41.21-.59.37-.15.14-.36.43-.28.66.17.49.26,1,.27,1.52v-.22c0,.2,0,.4-.04.6l2.79-.75c-.08-.11-.16-.22-.22-.33l.11.19c-.25-.47-.38-.98-.61-1.46-.26-.52-.57-1.01-.94-1.45-.18-.21-.54-.27-.79-.28-.37-.02-.81.07-1.14.22-.39.18-1.2.7-.76,1.22h0s.04-.02.04-.02Z"/>
+          </g>
+          <g>
+            <path class="cls-4" d="M47.29,16.5"/>
+            <path class="cls-14" d="M46.69,17.18c.53,0,1.64-.21,1.93-.73.3-.55-.26-.64-.73-.64-.53,0-1.64.21-1.93.73-.3.55.26.64.73.64h0Z"/>
+          </g>
+          <g>
+            <path class="cls-3" d="M46.4,16.11"/>
+            <path class="cls-14" d="M45.8,16.78c.53,0,1.64-.22,1.93-.72.31-.54-.26-.6-.72-.6-.53,0-1.64.22-1.93.72-.31.54.26.6.72.6h0Z"/>
+          </g>
+          <g>
+            <path class="cls-5" d="M46.05,15.99"/>
+            <path class="cls-14" d="M45.11,16.57c.64,0,1.53-.13,2.05-.55.37-.3.47-.62-.17-.62s-1.53.13-2.05.55c-.37.3-.47.62.17.62h0Z"/>
+          </g>
+          <line class="cls-1" x1="30.75" y1="53.02" x2="48.11" y2="52.9"/>
+          <line class="cls-1" x1="31.03" y1="52.27" x2="47.73" y2="52.21"/>
+        </g>
+      </g>
+      <text/>
+    </g>
+  </g>
+</svg>
