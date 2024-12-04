@@ -78,6 +78,14 @@ nav ul {
     display: none;
 }
 
+
+.video
+
+width: 600px;
+aspect-ratio: auto 600 / 400;
+height: 400px;
+
+
 .features {
     display: flex;
     justify-content: space-around;
@@ -86,6 +94,9 @@ nav ul {
     color: #FFD700;
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
   }
+
+
+
 
   .feature .cirkel {
     width: 150px;
