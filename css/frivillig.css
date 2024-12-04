@@ -1,0 +1,52 @@
+* {
+    font-family: 'Arial', sans-serif;  
+    margin: 0;  
+}
+
+#grad {
+    background-image: linear-gradient(to right, red , yellow);
+  }
+
+
+.hero {
+    position: relative;
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-overlay h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.hero-overlay .highlight {
+    color: #fcd34d; /* Bright yellow */
+}
+
+
+
+.description {
+    position: relative;
+    background: url('../img/frivillig.jpg') no-repeat center center/cover; /* Replace with your image */
+    height: 400px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+}
+
+.description-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Black semi-transparent */
+    padding: 40px;
+    width: 100%;
+    text-align: justify;
+}
+
+.description-content p {
+    margin: 0;
+    font-size: 1.2rem;
+}
