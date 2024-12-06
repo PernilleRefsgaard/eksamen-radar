@@ -114,19 +114,19 @@ header #menu-bar ul li:hover > ul {
     height: 400px;
     color: #fff;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
 
 .description-content {
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 40px;
-    width: 100%;
-    text-align: justify;
+    width: 80%;
+    text-align: center;
 }
 
 .description-content p {
-    margin: 0;
+    margin: 1rem;
     font-size: 1.2rem;
 }
 
