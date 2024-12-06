@@ -10,6 +10,79 @@ body{
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
 
+header {  
+    text-align: center;
+    background-color: #f8f1e8;
+
+}
+
+header a {
+    display: flex;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+
+.left-icon {
+    width: 12%;
+    height: auto;
+    margin: 0.8rem auto;
+    display: flex;
+}
+
+nav {
+    position: sticky; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f8f1e8;
+    color:black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav label img {
+    width: 15%;
+    height: auto;
+    margin-right: 2%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4%;
+}
+
+#menu-bar {
+    display: none;
+}
+
+#menu-bar:checked ~ ul {
+    display: block;
+}
+
+#menu-bar:checked ~ ul li {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu-bar:checked ~ ul li a {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--primary);
+    padding: 0.3rem;
+    font-size: 2rem;
+}
+
+header #menu-bar ul li:focus-within > ul,
+header #menu-bar ul li:hover > ul {
+    display: block;
+}
+
+nav ul {
+    display: none;
+}
+
 
 .hero {
     height: 300px;
@@ -224,6 +297,15 @@ footer {
 
 
 @media only screen and (min-width: 540px) and (orientation: landscape){
+    .left-icon {
+        width: 8%;
+    }
+
+
+    nav label img {
+        width: 9%;
+        margin-top: 2%;
+    }
 
 
 
@@ -231,24 +313,74 @@ footer {
 
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
+    .left-icon {
+        width: 12%;
+    }
+    
+    nav label img {
+        width: 14%;
+        margin-top: 1.2%;
+    }
    
 
 }
 
 @media only screen and (min-width: 897px) and (orientation: landscape){
 
+    nav label img {
+        margin-top: 1%;
+    }
 
 
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
 
+    nav label img {
+        margin-top: 1%;
+    }
   
 
 }
 
 @media only screen and (min-width: 1200px){
 
+    .left-icon {
+        width: 40%;
+    }
+
+    nav label img {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 0 3%;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: var(--primary);
+        font-size: 2rem;
+    }
+
+    nav ul li a:hover {
+        background: #4f402c;
+    }
+
+    nav ul li ul {
+        display: none;
+    }
     
 
 }
