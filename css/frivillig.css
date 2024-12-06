@@ -37,11 +37,6 @@ header nav ul li {
     display: inline;
 }
 
-.cover {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
 
 nav label img {
     width: 15%;
