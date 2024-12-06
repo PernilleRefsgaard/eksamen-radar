@@ -80,11 +80,11 @@ nav ul {
 
 
 .styled-video {
-    width: 100vw; /* Videoen fylder hele bredden af viewporten */    
-    height: auto; /* Bevarer videoens proportioner */   
-    display: block; /* S%C3%B8rg for, at der ikke er nogen un%C3%B8dvendige margins */    
-    margin: 0; /* Fjern marginer */    
-    padding: 0; /* Fjern padding */    
+    width: 100vw;   
+    height: auto;    
+    display: block;   
+    margin: 0;   
+    padding: 0;    
     object-fit: cover;
 }
 
@@ -141,6 +141,19 @@ nav ul {
     width: 250px;
     margin: 0 10px;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.box:hover{
+    transform:scale(1.3);
+    z-index: 2;
 }
 
 
@@ -293,5 +306,35 @@ footer {
       }
 
 
+      .container{
+
+        width: 90%;
+        padding: 20px;
+        margin:100px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    }
+    
+    .box{
+        width: 250px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+        transition: 1s;
+        
+    }
+    
+    .box img{
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    
+    .box:hover{
+        transform:scale(1.3);
+        z-index: 2;
+    }
 
 }
