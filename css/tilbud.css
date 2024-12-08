@@ -198,9 +198,12 @@ nav ul {
     font-weight: 600;
 }
 
-.text-box small{
-    display: inline-block;
-    margin-bottom: 15px;
+.lille-linje{
+    border: none;
+    height: 2px;
+    background-color:#daa520 ;
+    width: 100%;
+    margin: 20px auto;
 }
 
 .left-container-arrow{
