@@ -2,46 +2,42 @@
     margin: 0;  
 }
 
-header {    
+body{
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+}
+
+header {   
     text-align: center;
     background-color: #f8f1e8;
+
 }
 
 header a {
     display: flex;
 }
 
+header nav ul li {
+    display: inline;
+    white-space: nowrap;
+}
+
+
 .left-icon {
-    width: 15%;
+    width: 12%;
     height: auto;
-    margin: 1rem auto;
+    margin: 0.8rem auto;
     display: flex;
 }
 
 nav {
-    position:sticky; 
+    position: sticky; 
     top: 0;
     left: 0;
     width: 100%;
-    background-color: blanchedalmond; 
-    color:black;
+    background-color:  rgba(0, 0, 0, 0.8); 
+    color:white;
+    padding: 1rem 0;
     text-align: center;
-}
-
-nav ul {
-    display: none;
-}
-
-
-header nav ul li {
-    display: inline;
-   
-}
-
-.cover {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
 }
 
 nav label img {
@@ -51,7 +47,7 @@ nav label img {
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 #menu-bar {
@@ -80,6 +76,10 @@ header #menu-bar ul li:hover > ul {
     display: block;
 }
 
+nav ul {
+    display: none;
+}
+
 
 @font-face {
     font-family: 'ackor-demo'; 
@@ -89,7 +89,6 @@ header #menu-bar ul li:hover > ul {
 }
 
 .hero {
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
     height: 300px;
     display: flex;
     align-items: center;
@@ -109,13 +108,68 @@ header #menu-bar ul li:hover > ul {
     font-family: 'ackor-demo', 'Times New Roman', Times, serif;
 }
 
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card{
+    width: 80px;
+    border-radius:  .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.card > .rom{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card > .row > .icon{
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card > .row > .description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
 .description {
     position: relative;
     height: 400px;
     color: #fff;
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+
 }
 
 .description-content {
@@ -134,7 +188,6 @@ header #menu-bar ul li:hover > ul {
     position: relative;
     background: url('#') no-repeat center/cover;
     height: 400px;
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
 
 .image-overlay {
@@ -147,11 +200,18 @@ header #menu-bar ul li:hover > ul {
     color: #fff;
 }
 
+.linje{
+    border: none;
+    height: 4px;
+    background-color: #000;
+    width: 100%;
+    margin: 20px auto;
+  }
 
 
 
 footer {
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    
     color: black;
     text-align: center;
     padding: 20px 0;
@@ -160,10 +220,11 @@ footer {
   footer a {
     color: #FFD700;
     text-decoration: none;
+    font-size: 1.5rem;
   }
   
   footer .social-links a {
-    margin: 0 50px;
+    margin: 0 70px;
   }
 
   footer h2 {
@@ -176,6 +237,71 @@ footer {
     margin-top: 10px;
     font-size: 0.9rem;
   }
+
+
+  form {
+    display: grid;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    max-width: 400px; /* Maksimal bredde på formularen */
+    margin: 0 auto;   /* Centrerer formularen */
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #4f402c;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4f402c; /* Brun baggrund for knappen */
+    color:  #E7E0D6;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+footer h2 {
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
+}
+
+.kontakt-form input[type="text"],
+.kontakt-form input[type="email"],
+.kontakt-form input[type="tel"] {
+    width: 100%;               
+    padding: 8px;             
+    margin-bottom: 10px;      
+    border: 1px solid #4f402c; /* mørk linje */
+    border-radius: 4px;        /* runde hjørner */
+    box-sizing: border-box;   
+    font-size: 14px;           
+    background-color: white;  
+}
+
+
+.submit-button {
+    background-color: #4f402c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+}
 
 
 @media only screen and (min-width: 540px) and (orientation: landscape){
@@ -218,44 +344,41 @@ nav label img {
 @media only screen and (min-width: 1200px){
 
 
-.left-icon {
-    width: 40%;
-}
+    .left-icon {
+        width: 40%;
+    }
 
-nav label img {
-    display: none;
-}
+    nav label img {
+        display: none;
+    }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-nav ul {
-    display: flex;
-}
+    nav ul {
+        display: flex;
+    }
 
-nav ul li {
-    list-style: none;
-    padding: 0 3%;
+    nav ul li {
+        list-style: none;
+        padding: 0 3%;
+    }
 
-}
+    nav ul li a {
+        text-decoration: none;
+        color: var(--primary);
+        font-size: 1.6rem;
+    }
 
-nav ul li a {
-    text-decoration: none;
-    color: var(--primary);
-    font-size: 1.5rem;
-    margin-left: auto;
-    gap: 100px;
-}
+    nav ul li a:hover {
+        background: #4f402c;
+    }
 
-nav ul li a:hover {
-    background:#4f402c;
-}
-
-nav ul li ul {
-    display: none;
-}
+    nav ul li ul {
+        display: none;
+    }
 
 }

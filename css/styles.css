@@ -554,11 +554,10 @@ form input[type="submit"]:hover {
         z-index: 2;
     }
 
-    .footer {
+    .footer  {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        background-color: #E7E0D6; 
         padding: 20px;
         font-family:'Times New Roman', Times, serif
     }
@@ -568,8 +567,10 @@ form input[type="submit"]:hover {
         margin: 0 20px; 
     }
     
-    .kontakt-form, .contact-info, .logo-section {
+    .kontakt-form, .contact {
         text-align: left;
+        flex: 1;
+        margin: 10px;
     }
     
     .kontakt-form h2 {
@@ -585,6 +586,10 @@ form input[type="submit"]:hover {
         margin: 2px 0 5px;
         font-size: 14px;
         color: black;
+    }
+
+    form{
+        margin-top: 10px;
     }
     
     .kontakt-form input {

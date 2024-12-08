@@ -2,41 +2,43 @@
     margin: 0;  
 }
 
-header {    
+body{
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+}
+
+header {   
     text-align: center;
     background-color: #f8f1e8;
+
 }
 
 header a {
     display: flex;
 }
 
+header nav ul li {
+    display: inline;
+    white-space: nowrap;
+}
+
+
 .left-icon {
-    width: 15%;
+    width: 12%;
     height: auto;
-    margin: 1rem auto;
+    margin: 0.8rem auto;
     display: flex;
 }
 
 nav {
-    position:sticky; 
+    position: sticky; 
     top: 0;
     left: 0;
     width: 100%;
-    background-color:  #f8f1e8; 
-    color:black;
+    background-color:  rgba(0, 0, 0, 0.8); 
+    color:white;
+    padding: 1rem 0;
     text-align: center;
 }
-
-nav ul {
-    display: none;
-}
-
-
-header nav ul li {
-    display: inline;
-}
-
 
 nav label img {
     width: 15%;
@@ -74,6 +76,10 @@ header #menu-bar ul li:hover > ul {
     display: block;
 }
 
+nav ul {
+    display: none;
+}
+
 
 @font-face {
     font-family: 'ackor-demo'; 
@@ -84,7 +90,6 @@ header #menu-bar ul li:hover > ul {
 
 
 .hero {
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
     height: 300px;
     display: flex;
     align-items: center;
@@ -109,19 +114,23 @@ header #menu-bar ul li:hover > ul {
 .description {
     position: relative;
     background: url('../img/frivillig.jpg') no-repeat center center/cover; 
+
     height: 400px;
     color: #fff;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
 }
 
 .description-content {
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.9); 
     padding: 50px;
     width: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .description-content p {
@@ -131,7 +140,6 @@ header #menu-bar ul li:hover > ul {
 
 
 .frivillig-info {
-    background: linear-gradient(to right, #1c1c1c, #4e3a18); 
     color: #FFFFFF;
     padding: 50px 20px;
     display: flex;
@@ -161,7 +169,6 @@ header #menu-bar ul li:hover > ul {
 }
 
 footer {
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
     color: black;
     text-align: center;
     padding: 20px 0;
@@ -267,11 +274,11 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--primary);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 nav ul li a:hover {
-    background:#4f402c;
+    background: #4f402c;
 }
 
 nav ul li ul {
