@@ -134,6 +134,13 @@ nav ul {
 
   }
 
+  .cirkel{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
 
 .container{
 
@@ -167,7 +174,8 @@ nav ul {
 
   .guitar {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    margin-top: -5rem;
 
   }
 
@@ -194,10 +202,11 @@ footer {
   footer a {
     color: #FFD700;
     text-decoration: none;
+    font-size: 1.5rem;
   }
   
   footer .social-links a {
-    margin: 0 50px;
+    margin: 0 70px;
   }
 
   footer h2 {
@@ -488,7 +497,7 @@ form input[type="submit"]:hover {
     nav ul li a {
         text-decoration: none;
         color: var(--primary);
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     nav ul li a:hover {
