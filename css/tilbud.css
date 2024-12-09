@@ -6,6 +6,11 @@
     
 }
 
+@font-face {
+    font-family: "ackor-demo";
+    src: url(AckorDemo-Regular.ttf);
+}
+
 body{
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
@@ -101,8 +106,10 @@ nav ul {
 
 .hero-overlay .highlight {
     color: #fcd34d; 
-    font-family: 'ackor-demo', 'Times New Roman', Times, serif;
+    font-family: "ackor-demo";
+    
 }
+
 
 
 .timeline{
@@ -158,10 +165,11 @@ nav ul {
 
 .text-box{
     padding: 20px 30px;
-    background: #f8f1e8;
+    background: rgba(0, 0, 0, 0.8);
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    color: white;
 }
 
 .left-container{
@@ -177,7 +185,7 @@ nav ul {
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -214,7 +222,7 @@ nav ul {
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid white;
+    border-left: 15px solid rgba(0, 0, 0, 0.8);
     right: -15px;
 }
 
@@ -226,7 +234,7 @@ nav ul {
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid white;
+    border-right: 15px solid rgba(0, 0, 0, 0.8);
     left: -15px;
 }
 
