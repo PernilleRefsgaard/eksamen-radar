@@ -199,25 +199,27 @@ footer {
     padding: 20px 0;
   }
   
-  footer a {
+footer a {
     color: #FFD700;
     text-decoration: none;
     font-size: 1.5rem;
   }
   
-  footer .social-links a {
+footer .social-links a {
     margin: 0 70px;
   }
 
-  footer h2 {
-    font-size: 4rem;
+footer h2 {
+    font-size: 3rem;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
+    color: white;
 }
   
   footer .contact {
     margin-top: 10px;
     font-size: 0.9rem;
+    color: white;
   }
 
 
@@ -558,6 +560,7 @@ form input[type="submit"]:hover {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+
         padding: 20px;
         font-family:'Times New Roman', Times, serif
     }

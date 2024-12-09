@@ -168,31 +168,109 @@ nav ul {
     line-height: 1.6;
 }
 
+
+.linje{
+    border: none;
+    height: 4px;
+    background-color: #000;
+    width: 100%;
+    margin: 20px auto;
+  }
+
 footer {
+    
     color: black;
     text-align: center;
     padding: 20px 0;
   }
   
-  footer a {
+footer a {
     color: #FFD700;
     text-decoration: none;
+    font-size: 1.5rem;
   }
   
-  footer .social-links a {
-    margin: 0 50px;
+footer .social-links a {
+    margin: 0 70px;
   }
 
-  footer h2 {
-    font-size: 4rem;
+footer h2 {
+    font-size: 3rem;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
+    color: white;
 }
   
   footer .contact {
     margin-top: 10px;
     font-size: 0.9rem;
+    color: white;
   }
+
+
+  form {
+    display: grid;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    max-width: 400px; /* Maksimal bredde på formularen */
+    margin: 0 auto;   /* Centrerer formularen */
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #4f402c;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4f402c; /* Brun baggrund for knappen */
+    color:  #E7E0D6;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+footer h2 {
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
+}
+
+.kontakt-form input[type="text"],
+.kontakt-form input[type="email"],
+.kontakt-form input[type="tel"] {
+    width: 100%;               
+    padding: 8px;             
+    margin-bottom: 10px;      
+    border: 1px solid #4f402c; /* mørk linje */
+    border-radius: 4px;        /* runde hjørner */
+    box-sizing: border-box;   
+    font-size: 14px;           
+    background-color: white;  
+}
+
+
+.submit-button {
+    background-color: #4f402c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+}
 
 
 @media only screen and (min-width: 540px) and (orientation: landscape){
@@ -283,6 +361,66 @@ nav ul li a:hover {
 
 nav ul li ul {
     display: none;
+}
+
+.footer  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px; 
+}
+
+.kontakt-form, .contact {
+    text-align: left;
+    flex: 1;
+    margin: 10px;
+}
+
+.kontakt-form h2 {
+    font-size: 4rem;
+    color: black; 
+    margin-bottom: 15px;
+    max-width: 400%;
+    text-align: center;
+}
+
+.kontakt-form form label {
+    display: flex;
+    margin: 2px 0 5px;
+    font-size: 14px;
+    color: black;
+}
+
+form{
+    margin-top: 10px;
+}
+
+.kontakt-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.submit-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+}
+
+.submit-button:hover {
+    background-color: black;
 }
 
 }
