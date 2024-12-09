@@ -98,7 +98,7 @@ nav ul {
 }
 
 .hero-overlay h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 0;
     font-family: 'ackor-demo', 'Times New Roman', Times, serif;
@@ -106,8 +106,8 @@ nav ul {
 
 .hero-overlay .highlight {
     color: #fcd34d; 
-    font-family: "ackor-demo";
-    
+    font-family: 'ackor-demo', 'Times New Roman', Times, serif;
+    font-size: 3.9rem;
 }
 
 
@@ -246,12 +246,18 @@ nav ul {
     margin: 20px auto;
   }
 
+  footer a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
   footer .social-links a {
     margin: 0 70px;
   }
 
   footer {
-    text-align: right;     /* Centrerer tekst og indhold */
+    text-align: center;   
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
 
