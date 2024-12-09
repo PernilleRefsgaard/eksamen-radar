@@ -1,6 +1,7 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;  
+    text-decoration: none;
 }
 
 
@@ -416,6 +417,9 @@ ul {
     padding: 20px;
   }
 
+.cirkel{
+    text-decoration: none;
+}
 
 .container{
 
@@ -450,6 +454,7 @@ ul {
 .feature .cirkel{
     margin-top: -400px;
     }
+
 
 
     footer {

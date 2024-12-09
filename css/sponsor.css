@@ -180,9 +180,6 @@ input{
     display: none;
 }
 
-input:checked + label{
-    width: 300px;
-}
 
 input:checked + label .description{
     opacity: 1 !important;
@@ -406,10 +403,19 @@ nav label img {
     width: 14%;
     margin-top: 1.2%;
 }
+
+input:checked + label{
+    width: 400px;
+}
+
 }
 
 @media only screen and (min-width: 897px) and (orientation: portrait){
 
+
+    input:checked + label{
+        width: 600px;
+    }
 
     .footer {
         display: flex;
@@ -507,6 +513,27 @@ nav label img {
 
 }
 
+@media only screen and (min-width: 900px) and (orientation: landscape){
+
+
+    nav label img {
+       margin-top: 1%;
+   }
+   
+   .description {
+       height: 400px;
+       color: #fff;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   
+   }
+   
+   input:checked + label{
+       width: 600px;
+   }
+}
+
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
 
@@ -522,6 +549,10 @@ nav label img {
     align-items: center;
     justify-content: center;
 
+}
+
+input:checked + label{
+    width: 600px;
 }
 
 .footer {
@@ -612,6 +643,10 @@ ul {
     margin: 0; 
   }
 
+  input:checked + label{
+    width: 700px;
+}
+
   footer ul li{
     font-size: 1.1rem;
   }
@@ -664,6 +699,10 @@ ul {
         align-items: center;
         justify-content: center;
     
+    }
+
+    input:checked + label{
+        width: 700px;
     }
 
     .footer {
