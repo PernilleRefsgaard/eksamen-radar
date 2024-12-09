@@ -96,13 +96,13 @@ nav ul {
 
 .features {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     padding: 20px 0;
     background: #000;
     color: #FFD700;
     display: flex;    
     flex-direction: column;
-    align-items:end;
+    align-items:center;
     gap: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -110,8 +110,8 @@ nav ul {
   }
 
   .feature .cirkel {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background: #FFD700;
     color: #000;
@@ -136,7 +136,7 @@ nav ul {
 
   .cirkel{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 9px;
     font-weight: bold;
     text-decoration: none;
   }
@@ -150,6 +150,9 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60%;
 }
 
 .box{
@@ -305,7 +308,23 @@ ul {
     font-size: 1.1rem;
   }
 
+  @media only screen and (min-width: 450px) and (orientation: landscape){
 
+    .container{
+
+        width: 90%;
+        padding: 20px;
+        margin:100px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10%;
+    }
+
+
+  }
 @media only screen and (min-width: 540px) and (orientation: landscape){
 
     .left-icon {
@@ -317,6 +336,31 @@ ul {
         width: 9%;
         margin-top: 2%;
     }
+
+    .box img{
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .container{
+
+        width: 90%;
+        padding: 20px;
+        margin:100px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 30%;
+    }
+
+
+    .feature .cirkel {
+        width: 150px;
+        height: 150px;
+      }
 
 }
 
@@ -337,10 +381,41 @@ ul {
     justify-content: space-around;
     padding: 20px 0;
     background: #000;
-    color: #FFD700;
-    
-        
+    color: #FFD700;  
 }
+
+.features {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px 0;
+    background: #000;
+    color: #FFD700;
+    display: flex;    
+    align-items:end;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 250px;
+  }
+
+  .feature .cirkel {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #FFD700;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0 0 5px #FFD700, 0 0 25px #FFD700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 20px;
+  }
+
 
 .container{
 
@@ -365,7 +440,6 @@ ul {
     display: block;
     width: 100%;
     border-radius: 5px;
-
 }
 
 .box:hover{
