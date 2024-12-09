@@ -192,43 +192,23 @@ nav ul {
     margin: 20px auto;
   }
 
-footer {
-    
-    color: black;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-footer a {
-    color: #FFD700;
-    text-decoration: none;
-    font-size: 1.5rem;
-  }
-  
-footer .social-links a {
+  footer .social-links a {
     margin: 0 70px;
   }
 
-footer h2 {
-    font-size: 3rem;
-    padding-top: 2.5rem;
-    padding-bottom: 1rem;
-    color: white;
+  footer {
+    text-align: right;     
+    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
-  
-  footer .contact {
-    margin-top: 10px;
-    font-size: 0.9rem;
-    color: white;
-  }
 
 
-  form {
+form {
     display: grid;
     margin-bottom: 1.5rem;
     text-align: left;
-    max-width: 400px; /* Maksimal bredde på formularen */
+    max-width: 350px; /* Maksimal bredde på formularen */
     margin: 0 auto;   /* Centrerer formularen */
+    color: white;
 }
 
 form label {
@@ -239,13 +219,13 @@ form label {
 form input[type="text"] {
     padding: 0.8rem;
     font-size: 1rem;
-    border: 1px solid #4f402c;
+    border: 1px solid white;
     border-radius: 4px;
 }
 
 form input[type="submit"] {
-    background-color: #4f402c; /* Brun baggrund for knappen */
-    color:  #E7E0D6;
+    background-color: #4f402c; 
+    color:  white;
     border: none;
     padding: 0.6rem 1.4rem;
     cursor: pointer;
@@ -254,24 +234,31 @@ form input[type="submit"] {
 }
 
 footer h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
 }
 
-
-form input[type="submit"]:hover {
-    background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
+.contact-info h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
-.kontakt-form input[type="text"],
-.kontakt-form input[type="email"],
-.kontakt-form input[type="tel"] {
+
+form input[type="submit"]:hover {
+    background-color: #8F7858;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"] {
     width: 100%;               
     padding: 8px;             
     margin-bottom: 10px;      
-    border: 1px solid #4f402c; /* mørk linje */
-    border-radius: 4px;        /* runde hjørner */
+    border: 1px solid #4f402c; 
+    border-radius: 4px;        
     box-sizing: border-box;   
     font-size: 14px;           
     background-color: white;  
@@ -285,6 +272,21 @@ form input[type="submit"]:hover {
     border: none;
     cursor: pointer;
     border-radius: 4px; 
+}
+
+.kontakt1, .kontakt2 {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.booking-form h2 {
+    font-size: 35px;
+    color: white; 
+    margin-bottom: 15px;
+    max-width: 400%;
+    text-align: center;
 }
 
 
@@ -359,6 +361,35 @@ form input[type="submit"]:hover {
     margin-top: -400px;
     }
 
+
+    footer {
+        background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+        color: black;
+        text-align: center;
+        padding: 20px 0;
+      }
+      
+      footer a {
+        color: #FFD700;
+        text-decoration: none;
+      }
+      
+      footer .social-links a {
+        margin: 0 50px;
+      }
+    
+      footer h2 {
+        font-size: 4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+    }
+      
+      footer .contact {
+        margin-top: 10px;
+        font-size: 0.9rem;
+      }
+    
+
 }
 
 @media only screen and (min-width: 897px) and (orientation: landscape){
@@ -414,6 +445,100 @@ form input[type="submit"]:hover {
     margin-top: -400px;
     }
 
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        font-family:'Times New Roman', Times, serif
+    }
+    
+    .footer-section {
+        flex: 1;
+        margin: 0 20px; 
+    }
+    
+    .booking-form, .contact-info, .logo-section {
+        text-align: left;
+    }
+    
+    .booking-form h2 {
+        font-size: 35px;
+        color: white; 
+        margin-bottom: 15px;
+        max-width: 400%;
+        text-align: center;
+    }
+    
+    .booking-form form label {
+        display: flex;
+        margin: 2px 0 5px;
+        font-size: 14px;
+        color: white;
+    }
+    
+    .booking-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #E7E0D6;
+        font-size: 14px;
+    }
+    
+    .submit-button {
+        background-color: white;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px; 
+    }
+    
+    .submit-button:hover {
+        background-color: white;
+    }
+    
+    
+    .contact-info h2 {
+        font-size: 45px;
+        color: white;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .kontakt1, .kontakt2 {
+        font-size: 15px;
+        color: white;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    
+    
+    .booking-form input[type="text"],
+    .booking-form input[type="email"],
+    .booking-form input[type="tel"] {
+        width: 100%;               
+        padding: 8px;             
+        margin-bottom: 10px;      
+        border: 1px solid white; /* mørk linje */
+        border-radius: 4px;        /* runde hjørner */
+        box-sizing: border-box;   
+        font-size: 14px;           
+        background-color: white;  
+    }
+  
+    
+    ul {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+      }
+
+      footer ul li{
+        font-size: 1.1rem;
+      }
+
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
@@ -468,6 +593,99 @@ form input[type="submit"]:hover {
     margin-top: -450px;
     }
 
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        font-family:'Times New Roman', Times, serif
+    }
+    
+    .footer-section {
+        flex: 1;
+        margin: 0 20px; 
+    }
+    
+    .booking-form, .contact-info, .logo-section {
+        text-align: left;
+    }
+    
+    .booking-form h2 {
+        font-size: 35px;
+        color: white; 
+        margin-bottom: 15px;
+        max-width: 400%;
+        text-align: center;
+    }
+    
+    .booking-form form label {
+        display: flex;
+        margin: 2px 0 5px;
+        font-size: 14px;
+        color: white;
+    }
+    
+    .booking-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #E7E0D6;
+        font-size: 14px;
+    }
+    
+    .submit-button {
+        background-color: white;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px; 
+    }
+    
+    .submit-button:hover {
+        background-color: white;
+    }
+    
+    
+    .contact-info h2 {
+        font-size: 45px;
+        color: white;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .kontakt1, .kontakt2 {
+        font-size: 15px;
+        color: white;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    
+    
+    .booking-form input[type="text"],
+    .booking-form input[type="email"],
+    .booking-form input[type="tel"] {
+        width: 100%;               
+        padding: 8px;             
+        margin-bottom: 10px;      
+        border: 1px solid white; /* mørk linje */
+        border-radius: 4px;        /* runde hjørner */
+        box-sizing: border-box;   
+        font-size: 14px;           
+        background-color: white;  
+    }
+  
+    
+    ul {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+      }
+
+      footer ul li{
+        font-size: 1.1rem;
+      }
 
 }
 
@@ -556,11 +774,10 @@ form input[type="submit"]:hover {
         z-index: 2;
     }
 
-    .footer  {
+    .footer {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-
         padding: 20px;
         font-family:'Times New Roman', Times, serif
     }
@@ -570,41 +787,35 @@ form input[type="submit"]:hover {
         margin: 0 20px; 
     }
     
-    .kontakt-form, .contact {
+    .booking-form, .contact-info, .logo-section {
         text-align: left;
-        flex: 1;
-        margin: 10px;
     }
     
-    .kontakt-form h2 {
-        font-size: 4rem;
-        color: black; 
+    .booking-form h2 {
+        font-size: 35px;
+        color: white; 
         margin-bottom: 15px;
         max-width: 400%;
         text-align: center;
     }
     
-    .kontakt-form form label {
+    .booking-form form label {
         display: flex;
         margin: 2px 0 5px;
         font-size: 14px;
-        color: black;
-    }
-
-    form{
-        margin-top: 10px;
+        color: white;
     }
     
-    .kontakt-form input {
+    .booking-form input {
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
-        border: 1px solid black;
+        border: 1px solid #E7E0D6;
         font-size: 14px;
     }
     
     .submit-button {
-        background-color: black;
+        background-color: white;
         color: white;
         padding: 10px 20px;
         border: none;
@@ -613,7 +824,48 @@ form input[type="submit"]:hover {
     }
     
     .submit-button:hover {
-        background-color: black;
+        background-color: white;
     }
+    
+    
+    .contact-info h2 {
+        font-size: 45px;
+        color: white;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .kontakt1, .kontakt2 {
+        font-size: 15px;
+        color: white;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    
+    
+    .booking-form input[type="text"],
+    .booking-form input[type="email"],
+    .booking-form input[type="tel"] {
+        width: 100%;               
+        padding: 8px;             
+        margin-bottom: 10px;      
+        border: 1px solid white; 
+        border-radius: 4px;     
+        box-sizing: border-box;   
+        font-size: 14px;           
+        background-color: white;  
+    }
+  
+    
+    ul {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+      }
+
+      footer ul li{
+        font-size: 1.1rem;
+      }
 
 }
