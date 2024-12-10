@@ -227,12 +227,6 @@ input:checked + label .description{
     font-size: 1.2rem;
 }
 
-.image-section {
-    position: relative;
-    background: url('#') no-repeat center/cover;
-    height: 400px;
-}
-
 .image-overlay {
     position: absolute;
     bottom: 0;
@@ -262,7 +256,7 @@ input:checked + label .description{
   }
 
   footer {
-    text-align: center;   
+    text-align: center;     
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
 
@@ -354,6 +348,33 @@ form input[type="submit"]:hover {
     text-align: center;
 }
 
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  footer ul li{
+    font-size: 1.1rem;
+  }
+
+@media only screen and (min-width: 768px) and (orientation: portrait){
+
+
+
+.left-icon {
+    width: 12%;
+}
+
+nav label img {
+    width: 14%;
+    margin-top: 1.2%;
+}
+
+input:checked + label{
+    width: 400px;
+}
+
 footer {
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
     color: black;
@@ -381,32 +402,6 @@ footer {
     font-size: 0.9rem;
   }
 
-  ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-  }
-
-  footer ul li{
-    font-size: 1.1rem;
-  }
-
-@media only screen and (min-width: 768px) and (orientation: portrait){
-
-
-
-.left-icon {
-    width: 12%;
-}
-
-nav label img {
-    width: 14%;
-    margin-top: 1.2%;
-}
-
-input:checked + label{
-    width: 400px;
-}
 
 }
 
@@ -425,16 +420,16 @@ input:checked + label{
         font-family:'Times New Roman', Times, serif
     }
     
-    .footer-section {
+.footer-section {
         flex: 1;
         margin: 0 20px; 
     }
     
-    .booking-form, .contact-info, .logo-section {
+.booking-form, .contact-info, .logo-section {
         text-align: left;
     }
     
-    .booking-form h2 {
+.booking-form h2 {
         font-size: 35px;
         color: white; 
         margin-bottom: 15px;
@@ -485,8 +480,6 @@ input:checked + label{
         text-align: center;
     }
     
-    
-    
     .booking-form input[type="text"],
     .booking-form input[type="email"],
     .booking-form input[type="tel"] {
@@ -500,7 +493,6 @@ input:checked + label{
         background-color: white;  
     }
   
-    
     ul {
         list-style-type: none; 
         padding: 0; 
@@ -643,13 +635,10 @@ ul {
     margin: 0; 
   }
 
-  input:checked + label{
-    width: 700px;
-}
-
   footer ul li{
     font-size: 1.1rem;
   }
+
 }
 
 @media only screen and (min-width: 1200px){
