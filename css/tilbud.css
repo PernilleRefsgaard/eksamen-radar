@@ -110,8 +110,6 @@ nav ul {
     font-size: 3.9rem;
 }
 
-
-
 .timeline{
      position: relative;
      max-width: 1200px;
@@ -244,19 +242,19 @@ nav ul {
     background-color: #000;
     width: 100%;
     margin: 20px auto;
-  }
+}
 
-  footer a {
+footer a {
     color: #FFD700;
     text-decoration: none;
     font-size: 1.5rem;
-  }
+}
 
-  footer .social-links a {
+footer .social-links a {
     margin: 0 70px;
-  }
+}
 
-  footer {
+footer {
     text-align: center;   
     background: linear-gradient(to right, #000, #daa520); /* Black to gold */
 }
@@ -349,8 +347,6 @@ form input[type="submit"]:hover {
     text-align: center;
 }
   
-
-
 @media screen and (max-width:600px){
     
 .timeline{
@@ -394,394 +390,383 @@ footer {
     padding: 20px 0;
   }
   
-  footer a {
+footer a {
     color: #FFD700;
     text-decoration: none;
-  }
+}
   
-  footer .social-links a {
+footer .social-links a {
     margin: 0 50px;
-  }
+}
 
-  footer h2 {
+footer h2 {
     font-size: 4rem;
     padding-top: 2.5rem;
     padding-bottom: 1rem;
 }
   
-  footer .contact {
+footer .contact {
     margin-top: 10px;
     font-size: 0.9rem;
-  }
-
-
+}
 
 
 @media only screen and (min-width: 540px) and (orientation: landscape){
-    .left-icon {
-        width: 8%;
-    }
+
+.left-icon {
+    width: 8%;
+}
 
 
-    nav label img {
-        width: 9%;
-        margin-top: 2%;
-    }
-
-
+nav label img {
+    width: 9%;
+    margin-top: 2%;
+}
 
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
-    .left-icon {
-        width: 12%;
-    }
+.left-icon {
+    width: 12%;
+}
     
-    nav label img {
-        width: 14%;
-        margin-top: 1.2%;
-    }
+nav label img {
+    width: 14%;
+    margin-top: 1.2%;
+}
    
 
 }
 
 @media only screen and (min-width: 897px) and (orientation: landscape){
 
-    nav label img {
-        margin-top: 1%;
-    }
+nav label img {
+    margin-top: 1%;
+}
 
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 20px;
-        font-family:'Times New Roman', Times, serif
-    }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif
+}
     
-    .footer-section {
-        flex: 1;
-        margin: 0 20px; 
-    }
+.footer-section {
+    flex: 1;
+    margin: 0 20px; 
+}
     
-    .booking-form, .contact-info, .logo-section {
-        text-align: left;
-    }
+.booking-form, .contact-info, .logo-section {
+    text-align: left;
+}
     
-    .booking-form h2 {
-        font-size: 35px;
-        color: white; 
-        margin-bottom: 15px;
-        max-width: 400%;
-        text-align: center;
-    }
+.booking-form h2 {
+    font-size: 35px;
+    color: white; 
+    margin-bottom: 15px;
+    max-width: 400%;
+    text-align: center;
+}
     
-    .booking-form form label {
-        display: flex;
-        margin: 2px 0 5px;
-        font-size: 14px;
-        color: white;
-    }
+.booking-form form label {
+    display: flex;
+    margin: 2px 0 5px;
+    font-size: 14px;
+    color: white;
+}
     
-    .booking-form input {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #E7E0D6;
-        font-size: 14px;
-    }
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E7E0D6;
+    font-size: 14px;
+}
     
-    .submit-button {
-        background-color: white;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        border-radius: 4px; 
-    }
+.submit-button {
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+}
     
-    .submit-button:hover {
-        background-color: white;
-    }
-    
-    
-    .contact-info h2 {
-        font-size: 45px;
-        color: white;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-    
-    .kontakt1, .kontakt2 {
-        font-size: 15px;
-        color: white;
-        line-height: 1.6;
-        text-align: center;
+.submit-button:hover {
+    background-color: white;
     }
     
     
+.contact-info h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
     
-    .booking-form input[type="text"],
-    .booking-form input[type="email"],
-    .booking-form input[type="tel"] {
-        width: 100%;               
-        padding: 8px;             
-        margin-bottom: 10px;      
-        border: 1px solid white; /* mørk linje */
-        border-radius: 4px;        /* runde hjørner */
-        box-sizing: border-box;   
-        font-size: 14px;           
-        background-color: white;  
-    }
+.kontakt1, .kontakt2 {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+}
+    
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"] {
+    width: 100%;               
+    padding: 8px;             
+    margin-bottom: 10px;      
+    border: 1px solid white; /* mørk linje */
+    border-radius: 4px;        /* runde hjørner */
+    box-sizing: border-box;   
+    font-size: 14px;           
+    background-color: white;  
+}
   
-    
-    ul {
-        list-style-type: none; 
-        padding: 0; 
-        margin: 0; 
-      }
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
 
-      footer ul li{
-        font-size: 1.1rem;
-      }
+footer ul li{
+    font-size: 1.1rem;
+}
 
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
 
-    nav label img {
-        margin-top: 1%;
-    }
-  
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 20px;
-        font-family:'Times New Roman', Times, serif
-    }
-    
-    .footer-section {
-        flex: 1;
-        margin: 0 20px; 
-    }
-    
-    .booking-form, .contact-info, .logo-section {
-        text-align: left;
-    }
-    
-    .booking-form h2 {
-        font-size: 35px;
-        color: white; 
-        margin-bottom: 15px;
-        max-width: 400%;
-        text-align: center;
-    }
-    
-    .booking-form form label {
-        display: flex;
-        margin: 2px 0 5px;
-        font-size: 14px;
-        color: white;
-    }
-    
-    .booking-form input {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #E7E0D6;
-        font-size: 14px;
-    }
-    
-    .submit-button {
-        background-color: white;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        border-radius: 4px; 
-    }
-    
-    .submit-button:hover {
-        background-color: white;
-    }
-    
-    
-    .contact-info h2 {
-        font-size: 45px;
-        color: white;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-    
-    .kontakt1, .kontakt2 {
-        font-size: 15px;
-        color: white;
-        line-height: 1.6;
-        text-align: center;
-    }
-    
-    
-    
-    .booking-form input[type="text"],
-    .booking-form input[type="email"],
-    .booking-form input[type="tel"] {
-        width: 100%;               
-        padding: 8px;             
-        margin-bottom: 10px;      
-        border: 1px solid white; /* mørk linje */
-        border-radius: 4px;        /* runde hjørner */
-        box-sizing: border-box;   
-        font-size: 14px;           
-        background-color: white;  
-    }
-  
-    
-    ul {
-        list-style-type: none; 
-        padding: 0; 
-        margin: 0; 
-      }
+nav label img {
+    margin-top: 1%;
+}
 
-      footer ul li{
-        font-size: 1.1rem;
-      }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+    
+.footer-section {
+    flex: 1;
+    margin: 0 20px; 
+}
+    
+.booking-form, .contact-info, .logo-section {
+    text-align: left;
+}
+    
+.booking-form h2 {
+    font-size: 35px;
+    color: white; 
+    margin-bottom: 15px;
+    max-width: 400%;
+    text-align: center;
+}
+    
+.booking-form form label {
+    display: flex;
+    margin: 2px 0 5px;
+    font-size: 14px;
+    color: white;
+}
+    
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E7E0D6;
+    font-size: 14px;
+}
+    
+.submit-button {
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+}
+    
+.submit-button:hover {
+    background-color: white;
+}
+    
+.contact-info h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    
+.kontakt1, .kontakt2 {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+}
+    
+    
+    
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"] {
+    width: 100%;               
+    padding: 8px;             
+    margin-bottom: 10px;      
+    border: 1px solid white; /* mørk linje */
+    border-radius: 4px;        /* runde hjørner */
+    box-sizing: border-box;   
+    font-size: 14px;           
+    background-color: white;  
+}
+  
+    
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+footer ul li{
+    font-size: 1.1rem;
+}
 
 }
 
 @media only screen and (min-width: 1200px){
 
-    .left-icon {
-        width: 40%;
-    }
+.left-icon {
+    width: 40%;
+}
 
-    nav label img {
-        display: none;
-    }
+nav label img {
+    display: none;
+}
 
-    nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
-    nav ul {
-        display: flex;
-    }
+nav ul {
+    display: flex;
+}
 
-    nav ul li {
-        list-style: none;
-        padding: 0 3%;
-    }
+nav ul li {
+    list-style: none;
+    padding: 0 3%;
+}
 
-    nav ul li a {
-        text-decoration: none;
-        color: var(--primary);
-        font-size: 1.6rem;
-    }
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 1.6rem;
+}
 
-    nav ul li a:hover {
-        background: #4f402c;
-    }
+nav ul li a:hover {
+    background: #4f402c;
+}
 
-    nav ul li ul {
-        display: none;
-    }
+nav ul li ul {
+    display: none;
+}
     
-
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 20px;
-        font-family:'Times New Roman', Times, serif
-    }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif
+}
     
-    .footer-section {
-        flex: 1;
-        margin: 0 20px; 
-    }
+.footer-section {
+    flex: 1;
+    margin: 0 20px; 
+}
     
-    .booking-form, .contact-info, .logo-section {
-        text-align: left;
-    }
+.booking-form, .contact-info, .logo-section {
+    text-align: left;
+}
     
-    .booking-form h2 {
-        font-size: 35px;
-        color: white; 
-        margin-bottom: 15px;
-        max-width: 400%;
-        text-align: center;
-    }
+.booking-form h2 {
+    font-size: 35px;
+    color: white; 
+    margin-bottom: 15px;
+    max-width: 400%;
+    text-align: center;
+}
     
-    .booking-form form label {
-        display: flex;
-        margin: 2px 0 5px;
-        font-size: 14px;
-        color: white;
-    }
+.booking-form form label {
+    display: flex;
+    margin: 2px 0 5px;
+    font-size: 14px;
+    color: white;
+}
     
-    .booking-form input {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #E7E0D6;
-        font-size: 14px;
-    }
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E7E0D6;
+    font-size: 14px;
+}
     
-    .submit-button {
-        background-color: white;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        border-radius: 4px; 
-    }
+.submit-button {
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+}
     
-    .submit-button:hover {
-        background-color: white;
-    }
-    
-    
-    .contact-info h2 {
-        font-size: 45px;
-        color: white;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-    
-    .kontakt1, .kontakt2 {
-        font-size: 15px;
-        color: white;
-        line-height: 1.6;
-        text-align: center;
-    }
+.submit-button:hover {
+    background-color: white;
+}
     
     
+.contact-info h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
     
-    .booking-form input[type="text"],
-    .booking-form input[type="email"],
-    .booking-form input[type="tel"] {
-        width: 100%;               
-        padding: 8px;             
-        margin-bottom: 10px;      
-        border: 1px solid white; 
-        border-radius: 4px;     
-        box-sizing: border-box;   
-        font-size: 14px;           
-        background-color: white;  
-    }
+.kontakt1, .kontakt2 {
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+}
+    
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="tel"] {
+    width: 100%;               
+    padding: 8px;             
+    margin-bottom: 10px;      
+    border: 1px solid white; 
+    border-radius: 4px;     
+    box-sizing: border-box;   
+    font-size: 14px;           
+    background-color: white;  
+}
   
-    
-    ul {
-        list-style-type: none; 
-        padding: 0; 
-        margin: 0; 
-      }
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
 
-      footer ul li{
-        font-size: 1.1rem;
-      }
+footer ul li{
+    font-size: 1.1rem;
+}
 
 }
