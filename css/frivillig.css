@@ -9,7 +9,6 @@ body{
 header {   
     text-align: center;
     background-color: #f8f1e8;
-
 }
 
 header a {
@@ -107,14 +106,12 @@ nav ul {
 .hero-overlay .highlight {
     color: #fcd34d; 
     font-family: 'ackor-demo', 'Times New Roman', Times, serif;
-    font-size: 3.9rem;
+    font-size: 5rem;
 }
-
-
 
 .description {
     position: relative;
-    background: url('../img/frivillig.jpg') no-repeat center center/cover; 
+    background: url('../img/frivillig.webp') no-repeat center center/cover; 
 
     height: 400px;
     color: #fff;
@@ -146,6 +143,15 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
+}
+
+
+.bølge-grafik img{
+    position: absolute;
+    top: 870px;
+    left: 0;
+
 }
 
 .container {
@@ -256,7 +262,6 @@ form input[type="submit"]:hover {
     background-color: white;  
 }
 
-
 .submit-button {
     background-color: #4f402c;
     color: white;
@@ -285,11 +290,11 @@ ul {
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
-  }
+}
 
-  footer ul li{
+footer ul li{
     font-size: 1.1rem;
-  }
+}
 
 @media only screen and (min-width: 540px) and (orientation: landscape){
 
@@ -307,10 +312,9 @@ nav label img {
 }
 }
 
-
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
-    .description-content{
+.description-content{
     padding: 60px;
     font-size: 2rem;
 }
@@ -395,8 +399,6 @@ nav label img {
     text-align: center;
 }
 
-
-
 .booking-form input[type="text"],
 .booking-form input[type="email"],
 .booking-form input[type="tel"] {
@@ -417,9 +419,9 @@ ul {
     margin: 0; 
   }
 
-  footer ul li{
+footer ul li{
     font-size: 1.1rem;
-  }
+}
 
 }
 
@@ -429,7 +431,7 @@ ul {
     padding: 70px;
  }
 
- nav label img {
+nav label img {
     margin-top: 1%;
 }
 
@@ -501,8 +503,6 @@ ul {
     text-align: center;
 }
 
-
-
 .booking-form input[type="text"],
 .booking-form input[type="email"],
 .booking-form input[type="tel"] {
@@ -521,12 +521,11 @@ ul {
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
-  }
+}
 
-  footer ul li{
+footer ul li{
     font-size: 1.1rem;
-  }
-
+}
 
 }
 
@@ -627,7 +626,6 @@ nav ul li ul {
     background-color: white;
 }
 
-
 .contact-info h2 {
     font-size: 45px;
     color: white;
@@ -660,10 +658,10 @@ ul {
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
-  }
+}
 
-  footer ul li{
+footer ul li{
     font-size: 1.1rem;
-  }
+}
 
 }
