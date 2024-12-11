@@ -195,8 +195,9 @@ nav ul {
   }
 
   footer {
-    text-align: center;     /* Centrerer tekst og indhold */
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    text-align: center;   
+    background:rgba(0, 0, 0, 0.8);
+    padding: 20px;
 }
 
 
@@ -204,8 +205,8 @@ form {
     display: grid;
     margin-bottom: 1.5rem;
     text-align: left;
-    max-width: 350px; /* Maksimal bredde på formularen */
-    margin: 0 auto;   /* Centrerer formularen */
+    max-width: 350px; 
+    margin: 0 auto;   
     color: white;
 }
 

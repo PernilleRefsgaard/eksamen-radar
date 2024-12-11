@@ -201,11 +201,14 @@ footer a {
 
 footer .social-links a {
     margin: 0 70px;
+    padding-top: 5px;
+    
 }
 
 footer {
     text-align: center;     
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    background:rgba(0, 0, 0, 0.8);
+    padding: 20px;
 }
 
 
@@ -451,7 +454,7 @@ nav label img {
 }
 
 footer {
-    background: linear-gradient(to right, #000, #daa520); /* Black to gold */
+    background:rgba(0, 0, 0, 0.8);
     color: black;
     text-align: center;
     padding: 20px 0;
